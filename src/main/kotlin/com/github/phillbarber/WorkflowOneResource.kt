@@ -9,6 +9,8 @@ class WorkflowOneResource {
 
     @GetMapping("/stuff")
     fun s(): String {
+
+
         return "WAHOOO"
     }
 
